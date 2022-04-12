@@ -1,0 +1,334 @@
+#one {
+    height: 100px;
+    width: 100px;
+    animation-name: one;
+    background-color: blue;
+    animation-duration: 5s;
+}
+
+@keyframes one {
+    50% {
+        background-color: blue
+    }
+
+    50% {
+        background-color: green;
+    }
+
+}
+
+/* two*/
+#two {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation-name: two;
+    animation-duration: 5s;
+
+}
+
+@keyframes two {
+    25% {
+        background-color: blue
+    }
+
+    25% {
+        background-color: green;
+    }
+
+    25% {
+        background-color: yellow
+    }
+
+    25% {
+        background-color: red;
+    }
+
+}
+
+/* three*/
+#three {
+    width: 35vw;
+    height: 35vh;
+    animation-duration: 5s;
+    animation-name: three;
+
+
+}
+
+@keyframes three {
+    from {
+        filter: opacity(100%);
+    }
+
+    to {
+        filter: opacity(0);
+    }
+
+}
+
+/* four*/
+#four {
+    animation-name: four;
+    animation-duration: 5s;
+
+}
+
+@keyframes four {
+    form {
+        filter: blur(100px);
+    }
+
+    to {
+        filter: blur(17px);
+    }
+}
+
+/* five*/
+#five {
+    animation-name: five;
+    animation-duration: 2s;
+
+}
+
+@keyframes five {
+    from {
+        filter: sepia(0);
+    }
+
+    from {
+        filter: sepia(100%);
+    }
+}
+
+/* six*/
+#six {
+    animation-name: six;
+    animation-duration: 3s;
+    width: 35vw;
+    height: 35vh;
+    background-color: orange;
+    transform: translate(0, 0);
+
+
+
+
+}
+
+@keyframes six {
+    from {
+        background-color: orange;
+        transform: translate(0, 0);
+    }
+
+    to {
+        background-color: pink;
+        transform: translate(50px, 0);
+    }
+}
+
+/* seven*/
+#seven {
+    animation-name: seven;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    background-color: blue;
+    transform: translate(0, 0);
+    width: 35vw;
+    height: 35vh;
+}
+
+@keyframes seven {
+
+    from {
+        transform: translate(0, 5vh);
+    }
+
+    to {
+        transform: translate(0, 0vh);
+    }
+
+    100% {
+        background-color: blue
+    }
+
+    25% {
+        background-color: green;
+    }
+
+    50% {
+        background-color: yellow
+    }
+
+    0% {
+        background-color: red;
+    }
+
+}
+
+/* eight*/
+#eight {
+    animation-name: eight;
+    animation-duration: 5s;
+    height: 35vh;
+    width: 25vw;
+    filter: drop-shadow(10px 10px 10px black);
+    animation-direction: normal;
+
+
+}
+
+@keyframes eight {
+    from {
+        filter: drop-shadow(10px 10px 0px black);
+    }
+
+    to {
+        filter: drop-shadow(5px 5px 50px yellow);
+    }
+}
+
+/* nine*/
+#nine {
+    animation-name: nine;
+    animation-duration: 3s;
+    animation-direction: normal;
+    width: 40vw;
+    height: 40vh;
+
+}
+
+@keyframes nine {
+    from {
+        filter: blur(0px);
+    }
+
+    to {
+        filter: blur(100px);
+    }
+}
+
+/* ten*/
+#ten {
+    
+    animation-name: ten;
+    animation-duration: 5s;
+    width: 30vw;
+    height: 30vh;
+    filter: drop-shadow(5px 5px 7px black);
+    filter: contrast(100%);
+    
+    
+
+}
+#ten:hover{
+    animation-name: ten 5s;
+    animation-duration: 5s;
+    
+}
+
+@keyframes ten {
+    from {
+        filter: drop-shadow(4px 4px 6px yellow);
+        filter: contrast(500%);
+        width: 45vw;
+        height: 45vh;
+      
+
+
+    }
+
+    to {
+        filter: drop-shadow(4px 4px 15px green);
+         filter: contrast(100%);
+         height: 50vh;
+         width: 50vw;
+    }
+}
+/*eleven*/
+#eleven{
+    animation-name: eleven ;
+    animation-duration: 5s;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+
+}
+@keyframes eleven{
+    from{width: 30px;}
+    to{width: 100px;}
+    
+
+}
+/*twelve*/
+#twelve{
+    animation-name: twelve;
+    animation-duration: 5s;
+    background-color: purple;
+    width: 30px;
+    height: 30px;
+}
+@keyframes twelve{
+    0%{width: 10px;}
+    25%{width: 70px;}
+    50%{width: 30px;}
+    25%{width: 200px;}
+}
+/*thirteen*/
+#thirteen{
+    animation-name: thir;
+    animation-duration: 5s;
+    filter: brightness(normal);
+    
+}
+@keyframes thir{
+    50%{filter: brightness(0%);}
+    100% {filter: brightness(100%);}
+}
+/*fourteen*/
+#fourteen{
+    animation-name: fourteen;
+    animation-duration: 5s;
+    width: 20vw;
+    height: 20vh;
+ 
+}
+@keyframes fourteen{
+    from{width: 20vw;height: 20vh;}
+    to{width: 30vw;height: 30vh;}
+}
+/* fifth */
+#fifth{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(85, 183, 150);
+    animation-name: fifth;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+@keyframes fifth{
+    from{width: 30px;height: 30px;transform:translate(0,0);}
+    to{width: 100x;height: 30px;transform:translate(50px,0);}
+    
+
+}
+/*sixth*/
+#sixth{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:blue;
+    animation-name: sixth;
+    animation-duration:3s;
+    transform:translate(0,0);
+
+}
+@keyframes sixth{
+    0%{width: 100px;height: 100px;background-color: blue;transform: translate(0,0);}
+    25%{width: 50px;height: 50px;background-color: blue;transform:translate(0,-100px) ;}
+    50%{width: 100px;height: 100px;background-color: blue;transform:  translate(0,0);}
+    100%{width: 50px;height: 50px;background-color: blue;transform: translate(0,-100px);}
+}
+
+
+
